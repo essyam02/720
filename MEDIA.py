@@ -18,8 +18,11 @@ from telegram.ext import (
 
 # ---------------- CONFIG ----------------
 
-TOKEN = os.getenv("8261182027:AAH5_4mn4wXQkNROytm2YxqcT4mJnFPaBNo")
-MONGO_URL = os.getenv("mongodb+srv://esrskyn:Ciping27@720.ekl60b2.mongodb.net/?appName=720")
+TOKEN = "8261182027:AAH5_4mn4wXQkNROytm2YxqcT4mJnFPaBNo"
+MONGO_URL = os.getenv("mongodb+srv://esrskyn:Ciping27@720.ekl60b2.mongodb.net/?appName=720
+
+if not MONGO_URL:
+    raise ValueError("MONGO_URL not set")
 
 ADMIN_IDS = [1491285902]
 
