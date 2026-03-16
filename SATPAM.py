@@ -16,7 +16,7 @@ from telegram.ext import (
 
 # ---------------- CONFIG ---------------- #
 
-TOKEN = "8261182027:AAH5_4mn4wXQkNROytm2YxqcT4mJnFPaBNo"
+TOKEN = "7943661802:AAHhAldGSNkBOoG_kePdxQYlytCnYDy6V-0"
 
 FLOOD_LIMIT = 6
 FLOOD_TIME = 8
